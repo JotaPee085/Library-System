@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,600&display=swap');
+body {
+    background: rgb(69, 95, 151);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.box-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 45px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(63, 184, 206);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 35px;
+}
+
+.form-emprestimo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.links-voltar {
+    height: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(63, 184, 206);
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.label {
+    text-transform: uppercase;
+    margin: 8px;
+}
+
+.botao {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(0, 36, 136);
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background: rgb(233, 229, 229);
+    color: #000000de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #d3c8c856;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.links-menu {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(63, 184, 206);
+    width: 8%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.table-relatorio {
+    background: white;
+    border-color: rgba(14, 143, 182, 0.822);
+    border-radius: 10px;
+    border: none;
+    width: 60%;
+    height: 100px;
+    border-style: solid;
+}
+
+tr {
+    text-align: center;
+}
+
+.linkse {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+th {
+    background: rgb(63, 184, 206);
+    color: rgb(255, 255, 255);
+}
+
+.pesquisar {
+    font-size: 9pt;
+    padding: 4px;
+    width: 20%;
+    border-radius: 9px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.barra {
+    height: 30px;
+    width: 75%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background: rgb(233, 229, 229);
+    color: #000000de;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #d3c8c856;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#usr {
+    background-image: url("./pesq.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 1.3em;
+    padding-left: 1.3em;
+}
